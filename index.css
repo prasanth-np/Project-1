@@ -1,0 +1,180 @@
+.nav1{
+    background-color: black;
+    min-height: 100px;
+    
+}
+.button1{
+    background-color: rgb(23, 23, 23);
+}
+.linktnav{
+    
+}
+a.head:link,a.head:visited,a.head:active,a.link:hover,a.head{
+    background-image: linear-gradient(to right,#4facfe,#b8f5fb) !important;
+    color: transparent !important;
+    -webkit-background-clip: text !important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+    font-size: 50px !important;
+    
+}
+
+@media(max-width:460px){
+    a.head{
+        font-size: 30px !important;
+    }
+}
+.connect{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+}
+.display-5{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 40px;
+   
+}
+.learnpara{
+    font-size: 30px;
+    text-align: center;
+
+}
+.image img{
+    margin-top: 60px;
+    width: 100%;
+}
+section{
+    background: linear-gradient(180deg,#b8f5fb,#4facfe);
+    color: rgb(0, 0, 0);
+}
+.btn{
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    background-color: #0078ff;
+    align-items: center;
+    text-align: center;
+    font-size: 20PX;
+    width: 200px;
+}
+.learnbox{
+    background-color: #0078ff;
+    width: 160px;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 25px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: auto;
+}
+.learnmore{
+    padding: 6px;
+}
+.client{
+    background: linear-gradient(180deg,white,#97cbf8 );
+    margin-top: 30px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 12px;
+    
+}
+.clienthead{
+    color: #0078ff;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.work{
+    background: linear-gradient(180deg,white,#97cbf8 );
+    margin-top: 30px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+.workhead{
+    color: #0078ff;
+    font-weight: bolder;
+    font-size: 30px;
+    height: 60px;
+}
+.book{
+    background: linear-gradient(180deg,white,#97cbf8 );
+    margin-top: 30px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+.bookhead{
+    color: #0078ff;
+    font-weight: bolder;
+    font-size: 30px;
+    height: 60px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.signup{
+    margin-top: 30px;
+    background-color: #0078ff;
+    border-radius: 15px;
+    padding: 15px 20px;
+    text-align: center;
+    width: 300px;
+    text-shadow: black 15px;
+    margin-left: auto;
+}
+.signup h4{
+    font-size: 16px;
+    color: white;
+    margin-bottom: 10px; 
+}
+.signup input[type="text"]{
+    width: 200px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+.signup button{
+    background: linear-gradient(180deg,rgb(149, 217, 239),#319ffe);
+    color: white;
+    font-size: 14px;
+    border: none;
+    padding: 10.5px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: -5px;
+}
+.no{
+    font-size: 25px;
+    margin-left: auto;
+    display: inline;
+
+   
+}
+.phone{
+    margin-left: auto;
+    display: inline;
+}
+.phone img{
+    padding-bottom: 10px;
+}
+
+
+/* .glowing-div {
+    width: 200px;
+    height: 200px;
+    background-color: #3498db;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.glowing-div:hover {
+    box-shadow: 0 0 15px 5px rgba(102, 219, 52, 0.7); /* Glowing effect
+}    */
+ 
