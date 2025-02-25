@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Project 6</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
+    <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js'></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+
+    <!-- Slick Slider CSS -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css"/>
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- Slick Slider JS -->
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+<script>
+  $(document).ready(function(){
+      $('.slider').slick({
+          slidesToShow: 1,       // Show one slide at a time
+          slidesToScroll: 1,     // Scroll one slide at a time
+          autoplay: true,        // Enable autoplay
+          autoplaySpeed: 2000,   // Time between slides (2 seconds)
+          // dots: true,            // Show navigation dots
+          arrows: false,          // Show next/prev arrows
+          infinite: true,        // Enable infinite looping
+      });
+  });
+  </script>
+  
+</head>
+<body>
+                                                       <!-- NAV-BAR-SECTION -->
+<script>
+$(document).ready(function(){
+
+  $("#servicesDropdown").on("click",function(){
+    //alert("hi");
+    $(".abc").removeClass("show")
+$("#sd-down").toggle();
+// if($("sd-down").style("display") == "none"){
+//   $("sd-down").style("display","block");
+// }else{
+//   $("sd-down").style("display","none");
+// }
+
+
+  })
+})
+
+</script>
+
+  <section class="overflow-hidden">
+    <nav class="navbar navbar-expand-xl navbar-dark nav1">
+      <div class="container">
+          <a class="navbar-brand head" href="javascript:void(0)">
+              <b><span class="company-name">PNP Tech</span><span class="com">.COM</span></b>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav ms-auto">
+                  <li class="nav-item me-5">
+                      <a class="nav-link connect linknav" href="#"><b>Home</b></a>
+                  </li>
+                  <li class="nav-item me-5">
+                      <a class="nav-link connect linknav" href="#"><b>About</b></a>
+                  </li>
+                  <li class="nav-item dropdown ss1 me-5">
+                      <a class="nav-link dropdown-toggle connect linknav abc" href="#" 
+                      id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <b>Services</b>
+                      </a>
+                      <ul class="dropdown-menu tt" id="sd-down" aria-labelledby="servicesDropdown2" style="display:none;">
+                          <li><a class="dropdown-item" href="#"><b>Web Development</b></a></li>
+                          <hr>
+                          <li><a class="dropdown-item" href="#"><b>App Development</b></a></li>
+                          <hr>
+                          <li><a class="dropdown-item" href="#"><b>Website Maintenance</b></a></li>
+                          <hr>
+                          <li><a class="dropdown-item" href="#"><b>Digital Marketing</b></a></li>
+                      </ul>
+                  </li>
+                  <li class="nav-item dropdown ss1 me-5">
+                      <a class="nav-link dropdown-toggle connect linknav" href="#" id="productsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <b>Products</b>
+                      </a>
+                      <ul class="dropdown-menu tt" aria-labelledby="productsDropdown">
+                          <li><a class="dropdown-item" href="#"><b>GOOGLE WORKSPACE</b></a></li>
+                          <hr>
+                          <li><a class="dropdown-item" href="#"><b>AZURE ACCOUNT</b></a></li>
+                          <hr>
+                          <li><a class="dropdown-item" href="#"><b>AWS ACCOUNT</b></a></li>
+                          <hr>
+                          <li><a class="dropdown-item" href="#"><b>CANVA PRO</b></a></li>
+                          <hr>
+                          <li><a class="dropdown-item" href="#"><b>RDP</b></a></li>
+                      </ul>
+                  </li>
+                  <li class="nav-item me-5">
+                      <a class="nav-link connect linknav" href="#"><b>Contact Us</b></a>
+                  </li>
+              </ul>
+              <button class="lets-talk">Let's Talk <i class="bi1 bi-arrow-up"></i></button>
+          </div>
+      </div>
+  </nav>
+                                                         <!-- TITLE-SECTION -->
+
+      <section class="sec1">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h1 class="title-head1" data-aos="slide-right" data-aos-duration="1500">BEST</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <h1 class="title-head2">WEBSITE</h1>
+            </div>
+            
+          </div>
+          <div class="row">
+            <div class="col">
+              <h1 class="title-head3" data-aos="slide-left">DEVELOPMENT</h1>
+            </div>
+            <div class="col">
+              <div class="balldiv"><img src="ball.png" alt="" class="ball" height="340px"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+                                                            <!-- ABOUT-SECTION -->
+
+
+      <section class="sec2">
+      </section>
+      <section class="sec3">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="about-image" data-aos="zoom-in"><img src="about.png" alt="" height="200px"></div>
+            </div>
+            <div class="col" >
+              <div data-aos="zoom-out">
+                <p class="h5 about-h5">About Company</p>
+              
+                <p class="h1 about-h1" >Your Success, Our Mission – Client Satisfaction is Key at PNP Tech</p>
+                <br>
+                <p class="about-para">At PNP Tech, client satisfaction is our top priority. We are dedicated to delivering tailored solutions that drive success and exceed expectations. By understanding each client’s unique needs, we ensure lasting results and build strong, long-term relationships.</p>
+                <button class="about-button">Read More <img src="right icon.png" alt=""></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+                                                              <!-- SECOND TITLE -->
+
+
+      <section class="sec4">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="web-design"><span class="web">WEB   </span> <span class="design">DESIGN</span></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="agency">AGENCY</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+                                                             <!-- OUR LISIT -->
+
+
+      <section class="sec5">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4 ">
+              <div class="tick"><img src="tick mark.png" alt=""></div>
+              <div class="projects purecounter" data-purecounter-start="0" data-purecounter-end="250">250</div>
+              <div class="project-text">PROJECTS</div>
+            </div>
+            <div class="col-sm-4 ">
+              <div class="tick"><img src="tick mark.png" alt=""></div>
+              <div class="clients projects purecounter" data-purecounter-start="0" data-purecounter-end="175">175</div>
+              <div class="client-text">CLIENTS</div>
+            </div>
+            <div class="col-sm-4 ">
+              <div class="tick"><img src="tick mark.png" alt=""></div>
+              <div class="expert projects purecounter" data-purecounter-start="0" data-purecounter-end="30">30</div>
+              <div class="expert-text">EXPERTS</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+                                                          <!-- OUR SERVICE -->
+
+
+<section class="sec6">
+  <div class="container">
+    <div class="row">
+      <div class="col text-center">
+        <p class="h5 all-service-h5">All Services</p>
+      </div>
+    </div>
+    <div class="row">  
+      <div class="col text-center">
+        <h1 class="our-service">Our Service</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col text-center">
+        <p class="h5 service-para">Empower your brand with expert-driven online solutions <br> designed for growth, visibility, and performance.</p>
+      </div>
+    </div>
+
+    <!-- First Row of Services -->
+    <div class="row justify-content-center text-center">
+      <div class="col-md-6 col-sm-6 col-lg-4 mb-4 d-flex justify-content-center">
+        <div class="website-development" data-aos="zoom-in">
+          <img src="website developer.png" alt="" class="service-image">
+          <div class="up-right-arrow1"><i class="bi5 bi-arrow-up-right"></i></div>
+          <p class="h5 service-head">Website Development</p>
+          <img src="website development image.jpeg" alt="" height="110px" width="280px">
+        </div>
+      </div>
+
+      <div class="col-md-6 col-sm-6 col-lg-4 mb-4 d-flex justify-content-center">
+        <div class="website-development" data-aos="zoom-in">
+          <img src="app development.png" alt="" class="service-image">
+          <div class="up-right-arrow1"><i class="bi5 bi-arrow-up-right"></i></div>
+          <p class="h5 service-head">App Development</p>
+          <img src="app development image.jpg" alt="" height="110px" width="280px">
+        </div>
+      </div>
+
+      <div class="col-md-6 col-sm-6 mb-4 col-lg-4 d-flex justify-content-center">
+        <div class="website-development" data-aos="zoom-in">
+          <img src="digital marketing.png" alt="" class="service-image">
+          <div class="up-right-arrow1"><i class="bi5 bi-arrow-up-right"></i></div>
+          <p class="h5 service-head">Digital Marketing</p>
+          <img src="Digital marketing image.jpg" alt="" height="110px" width="280px">
+        </div>
+      </div>
+    </div>
+
+    <!-- Second Row of Services -->
+    <div class="row justify-content-center text-center">
+      <div class="col-md-6 col-sm-6 mb-4 col-lg-4 d-flex justify-content-center">
+        <div class="website-development2" data-aos="zoom-in">
+          <img src="website maintenance.png" alt="" class="service-image">
+          <div class="up-right-arrow1"><i class="bi5 bi-arrow-up-right"></i></div>
+          <p class="h5 service-head">Website Maintenance</p>
+          <img src="website maintenance image.jpg" alt="" height="110px" width="280px">
+        </div>
+      </div>
+
+      <div class="col-md-6 col-sm-6 mb-4 col-lg-4 d-flex justify-content-center">
+        <div class="website-development2" data-aos="zoom-in">
+          <img src="graphic design.png" alt="" class="service-image">
+          <div class="up-right-arrow1"><i class="bi5 bi-arrow-up-right"></i></div>
+          <p class="h5 service-head">Graphic Design</p>
+          <img src="graphic design image.jpg" alt="" height="110px" width="280px">
+        </div>
+      </div>
+
+      <div class="col-md-6 col-sm-6 mb-4 col-lg-4 d-flex justify-content-center">
+        <div class="website-development2" data-aos="zoom-in">
+          <img src="domain.png" alt="" class="service-image">
+          <div class="up-right-arrow1"><i class="bi5 bi-arrow-up-right"></i></div>
+          <p class="h5 service-head">Domain & Hosting</p>
+          <img src="domain hosting image.jpg" alt="" height="110px" width="280px">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+                                                          <!-- OUR PROJECTS -->
+
+
+      <section class="sec7">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="digital-solution"><span class="digital">Digital</span><span class="solution"> Solution</span></h1>
+                    <p class="h5 works-gallery">Recent Works Gallery</p>
+                    <p class="h1 works-gallery-project">Let's Look Our Recent Project Gallery</p>
+                    <div class="view-more-container">
+                      <button class="view-more-project me-auto">View More Project <i class="bi2 bi-arrow-right"></i></button>
+                    </div>
+                    
+
+                    
+                    </button>
+                </div>
+            </div>
+            <div class="row align-items-center text-center text-lg-start">
+              <div class="col-lg-4">
+                  <div class="project">01 <br><p class="h4">CREATIVE CORNER</p></div>
+              </div>
+              <div class="col-lg-4">
+                  <div class="project-image" ><img src="template design 1.webp" alt="Creative Corner" data-aos="zoom-in"></div>
+              </div>
+              <div class="col-lg-4">
+                  <div class="project-icon"><i class="bi3 bi bi-arrow-up-right-circle-fill"></i></div>
+              </div>
+          </div>
+          <hr class="project-hr">
+  
+          <div class="row align-items-center text-center text-lg-start">
+              <div class="col-lg-4">
+                  <div class="project">02 <br><p class="h4">ZETA</p></div>
+              </div>
+              <div class="col-lg-4">
+                  <div class="project-image"><img src="template design 2.jpg" alt="ZETA" data-aos="zoom-in"></div>
+              </div>
+              <div class="col-lg-4">
+                  <div class="project-icon"><i class="bi3 bi bi-arrow-up-right-circle-fill"></i></div>
+              </div>
+          </div>
+          <hr class="project-hr">
+  
+          <div class="row align-items-center text-center text-lg-start">
+              <div class="col-lg-4">
+                  <div class="project">03 <br><p class="h4">TRIPO GAMES</p></div>
+              </div>
+              <div class="col-lg-4">
+                  <div class="project-image"><img src="template design 3.webp" alt="ZONAR" data-aos="zoom-in"></div>
+              </div>
+              <div class="col-lg-4">
+                  <div class="project-icon"><i class="bi3 bi bi-arrow-up-right-circle-fill"></i></div>
+              </div>
+          </div>
+          <hr class="project-hr">
+        </div>
+        
+      </section>
+
+
+                                                          <!-- WHY CHOOSE US -->
+
+
+      <section class="sec8">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="choose-us-image"><img src="Client-Meeting.webp" alt="" width="500px"></div>
+                </div>
+                <div class="col">
+                    <div class="choose-us-title"><p class="h5"><b>Why Choose Us</b></p></div>
+                    <h1 class="choose-us-head">Create An Impactful Online Presence And Grow Your Business🥇</h1>
+                    <p class="h5 choose-us-para">Establishing a solid online presence is essential for any business in the digital age. It allows you to engage with a wider audience, showcase your unique offerings, and build trust with potential customers, all while positioning your brand for consistent growth and success in a competitive market.</p>
+
+                    <ul class="list-icon">
+                      <li data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                          <span class="check-icon"></span>
+                          <h4 class="why-choose-us">White-Hat SEO <br>Technique</h4>
+                      </li>
+                      <li data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                          <span class="check-icon"></span>
+                          <h4 class="why-choose-us">Social Media Marketing<br> & Advertisement</h4>
+                      </li>
+                      <li data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                          <span class="check-icon"></span>
+                          <h4 class="why-choose-us">Organic Content<br> Strategy</h4>
+                      </li>
+                      <li data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                          <span class="check-icon"></span>
+                          <h4 class="why-choose-us">Real Time Report<br>And Submitting</h4>
+                      </li>
+                      <li data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                          <span class="check-icon"></span>
+                          <h4 class="why-choose-us">Analytics and Market<br> Research</h4>
+                      </li>
+                  </ul>
+                  
+                </div>
+            </div>
+        </div>
+      </section>
+
+
+                                                      <!-- REVIEW SECTION -->
+
+
+      <section class="sec9">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="client-says">
+                <h1 class="client" data-aos="fade-right">Clients</h1>
+            </div>
+            </div>
+            <div class="col">
+              <div class="client-say">
+                <h1 class="says" data-aos="fade-left">Say's</h1>
+              </div>
+            </div>
+          </div>
+
+
+                                                             <!-- SLIDER-1 -->
+
+
+          <div class="slider">
+            <div>
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                                                 
+
+                    <div class="client-says-image text-center"><img src="about.png" class="mx-auto" alt="" height="200px"></div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <div class="client-says-lines"><span class="pnp-tech-lines">PNP Tech</span> provides well-structured websites with modern, responsive designs and seamless functionality. Their focus on technology integration and user experience ensures high-quality results for businesses looking to enhance their online presence.
+                    </div>
+                  </div>
+                </div>
+                <hr class="client-says-hr">
+                <div class="row">
+                <div class="col-sm-6">
+                  <div class="d-flex">
+                    <div class="profile"><img src="Profile icon.png" alt=""></div>
+                  <div class="client-name"><b>Accenture</b> <br>Manager</div>
+                  </div>
+                </div> 
+                <div class="col-sm-6">
+                  <div class="star-icon"><img src="star.png" alt=""><img src="star.png" alt=""><img src="star.png" alt=""><img src="star.png" alt=""><img src="star.png" alt=""></div> 
+                </div>
+              </div>
+              </div>
+            </div>
+
+
+                                                               <!-- SLIDER-2 -->
+
+            
+            <div>
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <div class="client-says-image text-center"><img src="about.png" class="mx-auto" alt="" height="200px"></div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <div class="client-says-lines">Highly Skilled and Professional Team – <span class="pnp-tech-lines">PNP Tech</span> company boasts a team of experienced web developers and designers who deliver customized solutions, ensuring that each website is unique, user-friendly, and optimized for performance
+                    </div>
+                  </div>
+                </div>
+                <hr class="client-says-hr">
+                <div class="row">
+                <div class="col-sm-6">
+                  <div class="d-flex">
+                    <div class="profile"><img src="Profile icon.png" alt=""></div>
+                  <div class="client-name"><b>Infosys</b> <br>Owner</div>
+                  </div>
+                </div> 
+                <div class="col-sm-6">
+                  <div class="star-icon"><img src="star.png" alt=""><img src="star.png" alt=""><img src="star.png" alt=""><img src="star.png" alt=""><img src="star.png" alt=""></div> 
+                </div>
+              </div>
+              </div>
+            </div>
+
+
+                                                                     <!-- SLIDER-3 -->
+
+
+            <div>
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <div class="client-says-image text-center"><img src="about.png" class="mx-auto" alt="" height="200px"></div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <div class="client-says-lines">Great Choice for Businesses of All Sizes – Whether you’re a startup or an established enterprise, <span class="pnp-tech-lines">PNP Tech</span> provides scalable and efficient web development solutions that cater to different business needs, helping companies grow their online presence.
+                    </div>
+                  </div>
+                </div>
+                <hr class="client-says-hr">
+                <div class="row">
+                <div class="col-sm-6">
+                  <div class="d-flex">
+                    <div class="profile"><img src="Profile icon.png" alt=""></div>
+                  <div class="client-name"><b>Amazon</b> <br>CEO</div>
+                  </div>
+                </div> 
+                <div class="col-sm-6">
+                  <div class="star-icon"><img src="star.png" alt=""><img src="star.png" alt=""><img src="star.png" alt=""><img src="star.png" alt=""><img src="star.png" alt=""></div> 
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+                                                    <!-- WHAT WE DO -->
+                            
+
+      <section class="sec10">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="what-we-do-"><h5 class="what-we-do-title">What We Do</h5>
+              <p class="h5 what-we-do-para">At PNP Tech, we create modern, responsive, and SEO-friendly websitestailored to businesses of all sizes. From custom web design to e-commerce and web applications, we deliver high-performance solutions that enhance your digital presence and drive growth.</p>
+              <div class="dropdown1">
+                <div class="dropdown-header1 drop1" onclick="toggleDropdown('content1', 'arrow1')">
+                    <h3 class="what-we-do-head">Website Development
+                      
+                    </h3>
+                </div>
+                <div class="arrow-div"><span class="arrow"><i id="arrow1" class="bi4 bi bi-arrow-right"></i></span></div>
+                <div class="dropdown-content1" id="content1">
+                    <p class="what-we-do-dropdown">We create custom websites that are visually appealing, user-friendly, and optimized for performance. Whether you need a business website, portfolio, or blog, we ensure a seamless experience across all devices with mobile-responsive designs.</p>
+                </div>
+            </div>
+            <hr class="what-we-do-hr">
+        
+            <div class="dropdown1">
+                <div class="dropdown-header1 " onclick="toggleDropdown('content2', 'arrow2')">
+                    <h3 class="what-we-do-head">E-Commerce Solutions
+                        
+                    </h3>
+                </div>
+                <div class="arrow-div"><span class="arrow"><i id="arrow2" class="bi4 bi bi-arrow-right"></i></span></div>
+                <div class="dropdown-content1" id="content2">
+                    <p class="what-we-do-dropdown">Our e-commerce development services enable businesses to sell online effortlessly. We build secure and scalable online stores with essential features such as payment gateway integration, product management, and an intuitive shopping experience.</p>
+                </div>
+            </div>
+            <hr class="what-we-do-hr">
+        
+            <div class="dropdown1">
+                <div class="dropdown-header1" onclick="toggleDropdown('content3', 'arrow3')">
+                    <h3 class="what-we-do-head">SEO & Digital Marketing
+                       
+                    </h3>
+                </div>
+                <div class="arrow-div"><span class="arrow"><i id="arrow3" class="bi4 bi bi-arrow-right"></i></span></div>
+                <div class="dropdown-content1" id="content3">
+                    <p class="what-we-do-dropdown">A great website needs visibility. Our SEO and digital marketing strategies help businesses rank higher in search engines, attract targeted traffic, and increase conversions through keyword optimization, content marketing, and social media advertising.</p>
+                </div>
+            </div>
+            <hr class="what-we-do-hr">
+        
+            <div class="dropdown1">
+                <div class="dropdown-header1" onclick="toggleDropdown('content4', 'arrow4')">
+                    <h3 class="what-we-do-head">Web Application Development 
+                        
+                    </h3>
+                </div>
+                <div class="arrow-div"><span class="arrow"><i id="arrow4" class="bi4 bi bi-arrow-right"></i></span></div>
+                <div class="dropdown-content1" id="content4">
+                    <p class="what-we-do-dropdown">We develop powerful web applications tailored to business needs. From CRM systems to booking platforms and automation tools, our custom applications help businesses improve efficiency and enhance operations.</p>
+                </div>
+            </div> 
+            <hr class="what-we-do-hr">
+        
+            <div class="dropdown1">
+                <div class="dropdown-header1" onclick="toggleDropdown('content5', 'arrow5')">
+                    <h3 class="what-we-do-head">Website Maintenance & Support 
+                        
+                    </h3>
+                </div>
+                <div class="arrow-div"><span class="arrow"><i id="arrow5" class="bi4 bi bi-arrow-right"></i></span></div>
+                <div class="dropdown-content1" id="content5">
+                    <p class="what-we-do-dropdown">Keeping your website secure and up-to-date is essential for long-term success. We provide website maintenance services, including security updates, performance optimization, bug fixes, and regular backups to ensure smooth operation.</p>
+                </div>
+            </div>
+            <hr class="what-we-do-hr">
+        
+            <div class="dropdown1">
+                <div class="dropdown-header1" onclick="toggleDropdown('content6', 'arrow6')">
+                    <h3 class="what-we-do-head">UI/UX Design 
+                        
+                    </h3>
+                </div>
+                <div class="arrow-div"><span class="arrow"><i id="arrow6" class="bi4 bi bi-arrow-right"></i></span></div>
+                <div class="dropdown-content1" id="content6">
+                    <p class="what-we-do-dropdown">A well-designed website enhances user experience and engagement. Our UI/UX design services focus on creating intuitive, attractive, and easy-to-navigate interfaces that captivate visitors and drive customer interaction.</p>
+                </div>
+            </div>
+            <hr class="what-we-do-hr">
+        
+              </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-container1">
+                    <h2 class="drop-us-title">Drop Us a Message</h2>
+                    <form id="contactForm">
+                        <!-- Name -->
+                        <label for="name">Name*</label>
+                        <input type="text" id="name" required>
+            
+                        <!-- Phone Number -->
+                        <label for="phone">Phone No*</label>
+                        <div class="phone-input">
+                            <select id="countryCode">
+                              <option value="+7">🇷🇺 +7 (Russia)</option>
+                              <option value="+20">🇪🇬 +20 (Egypt)</option>
+                              <option value="+27">🇿🇦 +27 (South Africa)</option>
+                              <option value="+30">🇬🇷 +30 (Greece)</option>
+                              <option value="+31">🇳🇱 +31 (Netherlands)</option>
+                              <option value="+32">🇧🇪 +32 (Belgium)</option>
+                              <option value="+33">🇫🇷 +33 (France)</option>
+                              <option value="+34">🇪🇸 +34 (Spain)</option>
+                              <option value="+36">🇭🇺 +36 (Hungary)</option>
+                              <option value="+39">🇮🇹 +39 (Italy)</option>
+                              <option value="+40">🇷🇴 +40 (Romania)</option>
+                              <option value="+41">🇨🇭 +41 (Switzerland)</option>
+                              <option value="+44">🇬🇧 +44 (United Kingdom)</option>
+                              <option value="+45">🇩🇰 +45 (Denmark)</option>
+                              <option value="+46">🇸🇪 +46 (Sweden)</option>
+                              <option value="+47">🇳🇴 +47 (Norway)</option>
+                              <option value="+49">🇩🇪 +49 (Germany)</option>
+                              <option value="+51">🇵🇪 +51 (Peru)</option>
+                              <option value="+52">🇲🇽 +52 (Mexico)</option>
+                              <option value="+53">🇨🇺 +53 (Cuba)</option>
+                              <option value="+54">🇦🇷 +54 (Argentina)</option>
+                              <option value="+55">🇧🇷 +55 (Brazil)</option>
+                              <option value="+56">🇨🇱 +56 (Chile)</option>
+                              <option value="+57">🇨🇴 +57 (Colombia)</option>
+                              <option value="+60">🇲🇾 +60 (Malaysia)</option>
+                              <option value="+61">🇦🇺 +61 (Australia)</option>
+                              <option value="+62">🇮🇩 +62 (Indonesia)</option>
+                              <option value="+63">🇵🇭 +63 (Philippines)</option>
+                              <option value="+64">🇳🇿 +64 (New Zealand)</option>
+                              <option value="+65">🇸🇬 +65 (Singapore)</option>
+                              <option value="+66">🇹🇭 +66 (Thailand)</option>
+                              <option value="+81">🇯🇵 +81 (Japan)</option>
+                              <option value="+82">🇰🇷 +82 (South Korea)</option>
+                              <option value="+84">🇻🇳 +84 (Vietnam)</option>
+                              <option value="+86">🇨🇳 +86 (China)</option>
+                              <option value="+90">🇹🇷 +90 (Turkey)</option>
+                              <option value="+91" selected>🇮🇳 +91 (India)</option>
+                              <option value="+92">🇵🇰 +92 (Pakistan)</option>
+                              <option value="+93">🇦🇫 +93 (Afghanistan)</option>
+                              <option value="+94">🇱🇰 +94 (Sri Lanka)</option>
+                              <option value="+95">🇲🇲 +95 (Myanmar)</option>
+                              <option value="+98">🇮🇷 +98 (Iran)</option>
+                              <option value="+211">🇸🇸 +211 (South Sudan)</option>
+                              <option value="+212">🇲🇦 +212 (Morocco)</option>
+                              <option value="+213">🇩🇿 +213 (Algeria)</option>
+                              <option value="+216">🇹🇳 +216 (Tunisia)</option>
+                              <option value="+218">🇱🇾 +218 (Libya)</option>
+                              <option value="+220">🇬🇲 +220 (Gambia)</option>
+                              <option value="+221">🇸🇳 +221 (Senegal)</option>
+                              <option value="+225">🇨🇮 +225 (Ivory Coast)</option>
+                              <option value="+234">🇳🇬 +234 (Nigeria)</option>
+                              <option value="+250">🇷🇼 +250 (Rwanda)</option>
+                              <option value="+254">🇰🇪 +254 (Kenya)</option>
+                              <option value="+255">🇹🇿 +255 (Tanzania)</option>
+                              <option value="+256">🇺🇬 +256 (Uganda)</option>
+                              <option value="+260">🇿🇲 +260 (Zambia)</option>
+                              <option value="+263">🇿🇼 +263 (Zimbabwe)</option>
+                              <option value="+268">🇸🇿 +268 (Eswatini)</option>
+                              <option value="+971">🇦🇪 +971 (UAE)</option>
+                              <option value="+972">🇮🇱 +972 (Israel)</option>
+                              <option value="+974">🇶🇦 +974 (Qatar)</option>
+                              <option value="+975">🇧🇹 +975 (Bhutan)</option>
+                            </select>
+                            <input type="text" id="phone" required placeholder="Enter your phone number">
+                        </div>
+            
+                        <!-- Email -->
+                        <label for="email">Email*</label>
+                        <input type="email" id="email" required placeholder="Enter your email">
+            
+                        <!-- Business Type -->
+                        <label for="businessType">Which Business do you have?*</label>
+                        <select id="businessType" required>
+                            <option>Website Development</option>
+                            <option>E-Commerce Solutions</option>
+                            <option>SEO & Digital Marketing</option>
+                            <option>Web Application Development</option>
+                            <option>Website Maintenance & Support</option>
+                            <option>UI/UX Design</option>
+                        </select>
+            
+                        <!-- Location -->
+                        <label for="location">Location*</label>
+                        <input type="text" id="location" required placeholder="Your location">
+            
+                        <!-- Message -->
+                        <label for="message">Message*</label>
+                        <textarea id="message" rows="3" required placeholder="Write your message..."></textarea>
+            
+                        <!-- Submit Button -->
+                        <button type="submit" class="button-pnp">Connect With PNP Tech Today ↑</button>
+                    </form>
+            
+                    <!-- Submission Info -->
+                    <div id="submissionCount" class="output-container">Total Submissions: 0</div>
+                    <div id="submittedData" class="output-container"></div>
+                </div>
+            </div>
+
+
+                                                <!-- FOOTER SECTION -->
+
+
+      
+            
+        <script>
+      function toggleDropdown(contentId, arrowId) {
+    var content = document.getElementById(contentId);
+    var arrow = document.getElementById(arrowId);
+
+    if (content.style.display === "block") {
+        content.style.display = "none";
+        arrow.classList.replace("bi-arrow-down", "bi-arrow-right"); // Change to right arrow
+    } else {
+        content.style.display = "block";
+        arrow.classList.replace("bi-arrow-right", "bi-arrow-down"); // Change to down arrow
+    }
+}
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    let formCount = localStorage.getItem("formCount") || 0;
+    document.getElementById("submissionCount").innerText = `Total Submissions: ${formCount}`;
+});
+
+document.getElementById("contactForm").addEventListener("submit", function (event) {
+    event.preventDefault();
+
+    let name = document.getElementById("name").value;
+    let countryCode = document.getElementById("countryCode").value;
+    let phone = document.getElementById("phone").value;
+    let email = document.getElementById("email").value;
+    let businessType = document.getElementById("businessType").value;
+    let location = document.getElementById("location").value;
+    let message = document.getElementById("message").value;
+
+    if (name && phone && email && businessType && location && message) {
+        let formCount = localStorage.getItem("formCount") || 0;
+        formCount++;
+        localStorage.setItem("formCount", formCount);
+        document.getElementById("submissionCount").innerText = `Total Submissions: ${formCount}`;
+
+        let output = `
+            <h3>Submitted Message:</h3>
+            <p><strong>Name:</strong> ${name}</p>
+            <p><strong>Phone:</strong> ${countryCode} ${phone}</p>
+            <p><strong>Email:</strong> ${email}</p>
+            <p><strong>Business Type:</strong> ${businessType}</p>
+            <p><strong>Location:</strong> ${location}</p>
+            <p><strong>Message:</strong> ${message}</p>
+            <hr>
+        `;
+
+        // Append new submission to existing data
+        document.getElementById("submittedData").innerHTML += output;
+
+        // Clear the form
+        document.getElementById("contactForm").reset();
+    } else {
+        alert("Please fill all required fields.");
+    }
+});
+
+
+
+        </script>
+      </section>
+
+
+
+
+
+    </section>
+    <!-- Footer -->
+<footer class=" text-light pt-5 pb-4 fot-1">
+  <div class="container text-center text-md-start">
+      <div class="row">
+          <!-- Company Info -->
+          <div class="col">
+              <h5 class="text-uppercase fw-bold"><span class="footer-pnp-tech">PNP TECH</span><span class="footer-com">.COM</span></h5>
+              <p class="footer-para">
+                From startups to enterprises, we power businesses with innovation.
+              </p>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="col ">
+              <h5 class="text-uppercase fw-bold common-footer ">Popular Services</h5>
+              <ul class="list-unstyled">
+                  <li><a href="#" class="text-light text-decoration-none pop-ser">Website Development</a></li>
+                  <li><a href="#" class="text-light text-decoration-none pop-ser">Network Maintenance</a></li>
+                  <li><a href="#" class="text-light text-decoration-none pop-ser">Graphics Design</a></li>
+                  <li><a href="#" class="text-light text-decoration-none pop-ser">Server Maintenance</a></li>
+              </ul>
+          </div>
+
+          <!-- Contact -->
+          <div class="col  ">
+              <h5 class="text-uppercase fw-bold common-footer"> Contact</h5>
+              <p><i class="fas fa-home me-2 con-line1"></i>Infopark Phase 2, Kochi</p>
+              <p><i class="fas fa-envelope me-2 con-line2"></i>prasanth2001np@gmail.com</p>
+              <p><i class="fas fa-phone me-2 con-line3"></i>9995958742</p>
+          </div>
+
+          <!-- Social Media -->
+          <div class="col  ">
+              <h5 class="text-uppercase fw-bold common-footer">Follow Us</h5><br>
+              <a href="#" class="btn btn-outline-light btn-floating m-1"><i class=" bi6 bi bi-instagram"></i></a>
+              <a href="#" class="btn btn-outline-light btn-floating m-1"><i class="bi7 bi bi-facebook"></i></a>
+              <a href="#" class="btn btn-outline-light btn-floating m-1"><i class="bi8 bi bi-whatsapp"></i></a>
+              <a href="#" class="btn btn-outline-light btn-floating m-1"><i class=" bi9 bi bi-linkedin"></i></a>
+          </div>
+      </div>
+  </div>
+
+  <!-- Copyright -->
+  <div class="text-center p-3 copyright">
+    &copy; 2025 PNPTECH.COM. All rights reserved.
+</div>
+</footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration:1500,
+        once:true,
+      });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+    <script>
+      new PureCounter({
+      // Setting that can't' be overriden on pre-element
+      selector: ".purecounter", // HTML query selector for spesific element
+    
+      // Settings that can be overridden on per-element basis, by `data-purecounter-*` attributes:
+      start: 0, // Starting number [uint]
+      end: 100, // End number [uint]
+      duration: 1, // The time in seconds for the animation to complete [seconds]
+      delay: 1, // The delay between each iteration (the default of 10 will produce 100 fps) [miliseconds]
+      once: true, // Counting at once or recount when the element in view [boolean]
+      pulse: false, // Repeat count for certain time [boolean:false|seconds]
+      decimals: 0, // How many decimal places to show. [uint]
+      legacy: true, // If this is true it will use the scroll event listener on browsers
+      filesizing: false, // This will enable/disable File Size format [boolean]
+      currency: false, // This will enable/disable Currency format. Use it for set the symbol too [boolean|char|string]
+      formater: "us-US", // Number toLocaleString locale/formater, by default is "en-US" [string|boolean:false]
+      separator: false // This will enable/disable comma separator for thousands. Use it for set the symbol too [boolean|char|string]
+    });
+    
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    </body>
+    </html>
